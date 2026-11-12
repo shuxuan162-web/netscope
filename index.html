@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d13" />
+    <title>NetScope — Interactive Network Topology & Packet Flow Simulator</title>
+    <meta
+      name="description"
+      content="Build a network, launch traffic and watch ARP, routing, NAT and firewall decisions hop by hop. A browser-only packet flow simulator with a Wireshark-style inspector."
+    />
+    <meta property="og:title" content="NetScope — Network Topology & Packet Flow Simulator" />
+    <meta
+      property="og:description"
+      content="Watch ARP, TCP handshakes, NAT and ACL drops travel through a live topology. Runs 100% in the browser."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>NetScope needs JavaScript to run the simulation.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
