@@ -4,6 +4,8 @@ Build a network, launch traffic, and watch every frame travel hop by hop: ARP br
 
 Runs **100% in the browser** — no backend, no API, no tracking. The production build is a folder of static files.
 
+Try it out: https://netscope.shuzers.my/
+
 ## Features
 
 - **Interactive canvas** — drag devices from the palette (or click-to-place), connect them with the cable tool, pan, zoom, auto-fit. SVG nodes and bezier links, with packets rendered on a canvas overlay at 60 FPS. No graph or canvas library.
